@@ -32,6 +32,8 @@ else:
     print("Please choose from either 'rock', 'paper', or 'scissors'")
 #determining who won
 
+
+#adapted from Kevin Pinkerton
 wins = [("rock", "scissors"), ("scissors", "paper"), ("paper", "rock")]
 if (user_choice, computer_choice) in wins:
     print("You win!")
